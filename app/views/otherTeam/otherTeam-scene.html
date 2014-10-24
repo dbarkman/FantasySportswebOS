@@ -1,0 +1,28 @@
+<div class="palm-group" id="groupTeam">
+    <div class="palm-group-title" x-mojo-loc=''>Team Details</div>
+    <div class="palm-list">
+        <div class="palm-row single" id="nameRow">
+            <div class="palm-row-wrapper textfield-group">
+                <div id="fetching">Fetching Team Details...</div>
+                <div id="details"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="palm-group" id="groupPoints">
+    <div class="palm-group-title" x-mojo-loc=''>Points</div>
+    <div class="palm-list">
+        <div class="palm-row single" id="pointsRow">
+            <div class="palm-row-wrapper textfield-group">
+                <div id="points" class="medFont"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div x-mojo-element="List" id="startingLineup" class="listClass"></div>
+<div x-mojo-element="List" id="benchedPlayers" class="listClass"></div>
+
+<div class="palm-scrim" id="ajaxScrim">
+    <div x-mojo-element="Spinner" id="ajaxSpinner" class="spinnerClass"></div>
+</div>

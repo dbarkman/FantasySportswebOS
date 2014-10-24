@@ -1,0 +1,9 @@
+{
+	"id": "com.realsimpleapps.fantasysports",
+	"version": "1.5.5",
+	"vendor": "Real Simple Apps",
+	"type": "web",
+	"main": "index.html",
+	"title": "Fantasy Sports",
+	"icon": "icon.png"
+}

@@ -1,0 +1,34 @@
+<div id="queryInputDiv" class="palm-group">
+    <div class="palm-group-title" x-mojo-loc=''>Fantasy Sports Data Approval</div>
+    <div class="palm-list">
+        <div class="palm-row first" id="step1Row">
+            <div class="palm-row-wrapper">
+                <div class="title">
+                    <div id="help" class="help">
+                        Before using Fantasy Sports, you must
+                        perform a one-time authentication
+                        using OAuth.  Please do the following:
+                        <ul>
+                            <li>Press "Step 1"</li>
+                            <li>Log in to Yahoo!</li>
+                            <li>Press the "Agree" button</li>
+                            <li>A new page will load with a code</li>
+                            <li>Enter that code below</li>
+                            <li>Press "Step 2"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="palm-row last" id="codeRow">
+            <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                <div class="title">
+                    <div class="label"></div>
+                    <div x-mojo-element="TextField" id="code" class="textFieldClass"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div x-mojo-element="Button" id="step1" class="buttonClass twoColumns left"></div>
+<div x-mojo-element="Button" id="step2" class="buttonClass twoColumns right"></div>

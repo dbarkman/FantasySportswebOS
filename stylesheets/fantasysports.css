@@ -1,0 +1,63 @@
+.command-menu .palm-menu-fade {
+	background : url(../images/my-scene-fade-bottom-dark.png) repeat-x !important;
+}
+body {
+}
+.help {
+    font-size: 16px;
+}
+.veryLargeFont {
+    font-size: 24px;
+}
+.largeFont {
+    font-size: 20px;
+}
+.medFont {
+    font-size: 16px;
+}
+.smallFont {
+    font-size: 15px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    vertical-align: top;
+}
+.leftMg15 {
+    margin-left: 15px;
+}
+.leftMg5 {
+    margin-left: 5px;
+}
+table.team {
+/*    width: 100%;*/
+}
+.red {
+    color: #FF0000;
+}
+.tdWide {
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+.twoColumns {
+	width: 50%;
+}
+#helpID {
+    margin: 15px;
+}
+#helpID .helpBig {
+    font-size: 25px;
+}
+#copyright {
+    margin: 15px;
+}
+#gmailIcon {
+    margin: 0 10px;
+}
+#contactIcon {
+    margin: 0 10px;
+}
